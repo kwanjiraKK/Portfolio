@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="th" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - ข้าวหอม ขวัญจิรา เกาะเกตุ</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts (Prompt) -->
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome สำหรับไอคอน -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Prompt', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-md shadow-sm z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-pink-600"><i class="fa-solid fa-music mr-2"></i>Khaohom Portfolio</a>
+            <div class="space-x-6 hidden md:flex font-medium">
+                <a href="#about" class="hover:text-pink-600 transition">เกี่ยวกับฉัน</a>
+                <a href="#skills" class="hover:text-pink-600 transition">ทักษะและความสนใจ</a>
+                <a href="#projects" class="hover:text-pink-600 transition">ผลงานและกิจกรรม</a>
+                <a href="#goals" class="hover:text-pink-600 transition">เป้าหมาย</a>
+                <a href="#contact" class="hover:text-pink-600 transition">ติดต่อ</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="min-h-screen flex items-center justify-center bg-gradient-to-br from-pink-50 via-purple-50 to-indigo-50 pt-20">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <div class="w-40 h-40 mx-auto mb-6 rounded-full overflow-hidden shadow-xl border-4 border-white">
+                <!-- สามารถเปลี่ยนลิงก์รูปภาพด้านล่างเป็นรูปจริงของน้องข้าวหอมได้ -->
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80" alt="Khaohom" class="w-full h-full object-cover">
+            </div>
+            <h1 class="text-4xl md:text-5xl font-bold mb-3 text-slate-900">นางสาว ขวัญจิรา เกาะเกตุ <span class="text-pink-600">(ข้าวหอม)</span></h1>
+            <p class="text-xl text-slate-600 mb-6">นักเรียนชั้นมัธยมศึกษาปีที่ 4 • โรงเรียนสามร้อยยอดวิทยาคม</p>
+            <p class="text-lg text-pink-600 font-medium mb-8"><i class="fa-solid fa-microphone-lines mr-2"></i>มีความหลงใหลในเสียงเพลงและการขับร้อง</p>
+            <div class="space-x-4">
+                <a href="#contact" class="bg-pink-600 text-white px-6 py-3 rounded-full font-medium shadow-lg hover:bg-pink-700 transition"><i class="fa-solid fa-phone mr-2"></i>ติดต่อฉัน</a>
+                <a href="#projects" class="bg-white text-slate-700 border border-slate-300 px-6 py-3 rounded-full font-medium shadow-sm hover:bg-slate-50 transition">ดูผลงาน</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 max-w-5xl mx-auto px-4">
+        <div class="bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-slate-100 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div>
+                <h2 class="text-3xl font-bold mb-4 text-slate-900 border-l-4 border-pink-600 pl-4">เกี่ยวกับฉัน</h2>
+                <p class="text-slate-600 leading-relaxed mb-4">
+                    สวัสดีค่ะ ชื่อเล่น **ข้าวหอม** ชื่อจริง นางสาวขวัญจิรา เกาะเกตุ ปัจจุบันกำลังศึกษาอยู่ชั้นมัธยมศึกษาปีที่ 4 โรงเรียนสามร้อยยอดวิทยาคม 
+                    เป็นคนร่าเริง รักเสียงเพลงและการร้องเพลงเป็นชีวิตจิตใจ นอกจากเรื่องดนตรีแล้ว ยังมีความขยันและคุ้นเคยกับการทำไร่ทำสวน ซึ่งช่วยปลูกฝังความอดทนและความรับผิดชอบให้แก่ตนเองอีกด้วย
+                </p>
+                <div class="grid grid-cols-2 gap-4 text-slate-700 font-medium">
+                    <div><i class="fa-solid fa-user text-pink-600 mr-2"></i> ชื่อเล่น: ข้าวหอม</div>
+                    <div><i class="fa-solid fa-graduation-cap text-pink-600 mr-2"></i> ระดับชั้น: ม.4</div>
+                    <div><i class="fa-solid fa-school text-pink-600 mr-2"></i> โรงเรียน: สามร้อยยอดวิทยาคม</div>
+                </div>
+            </div>
+            <div class="bg-pink-50 p-6 rounded-2xl border border-pink-100">
+                <h3 class="text-xl font-bold text-pink-700 mb-3"><i class="fa-solid fa-heart mr-2"></i>ความสนใจหลัก</h3>
+                <p class="text-slate-700 leading-relaxed">
+                    มุ่งเน้นและให้ความสำคัญกับ **ดนตรีและการขับร้องเพลง** ชอบฝึกฝนพัฒนาทักษะการร้องเพลงอยู่เสมอ พร้อมทั้งเปิดรับประสบการณ์ใหม่ๆ ทั้งการประกวดบนเวทีและการทำกิจกรรมร่วมกับโรงเรียน
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-slate-100">
+        <div class="max-w-5xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-slate-900">ทักษะและความสามารถ</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Skill 1 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-200 flex items-start space-x-4">
+                    <div class="bg-pink-100 text-pink-600 p-4 rounded-xl text-2xl"><i class="fa-solid fa-microphone"></i></div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">ทักษะการขับร้องเพลง</h3>
+                        <p class="text-slate-600">มีความสามารถโดดเด่นด้านการร้องเพลง การควบคุมเสียง และกล้าแสดงออกบนเวทีผ่านการประกวดต่างๆ</p>
+                    </div>
+                </div>
+                <!-- Skill 2 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-200 flex items-start space-x-4">
+                    <div class="bg-green-100 text-green-600 p-4 rounded-xl text-2xl"><i class="fa-solid fa-seedling"></i></div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">การทำไร่ทำสวน</h3>
+                        <p class="text-slate-600">มีทักษะและความขยันอดทนในการช่วยเหลืองานเกษตรกรรม การทำไร่ทำสวน ซึ่งเป็นพื้นฐานชีวิตที่ดี</p>
+                    </div>
+                </div>
+                <!-- Skill 3 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-200 flex items-start space-x-4">
+                    <div class="bg-blue-100 text-blue-600 p-4 rounded-xl text-2xl"><i class="fa-solid fa-medal"></i></div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">กิจกรรมกีฬา</h3>
+                        <p class="text-slate-600">เข้าร่วมการแข่งขันกีฬาภายในโรงเรียนในบางประเภทกีฬา แสดงถึงความสามัคคีและน้ำใจนักกีฬา</p>
+                    </div>
+                </div>
+                <!-- Skill 4 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-200 flex items-start space-x-4">
+                    <div class="bg-purple-100 text-purple-600 p-4 rounded-xl text-2xl"><i class="fa-solid fa-people-group"></i></div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">การทำงานร่วมกับผู้อื่น</h3>
+                        <p class="text-slate-600">พร้อมเรียนรู้สิ่งใหม่ ทำงานกลุ่มและทำกิจกรรมร่วมกับเพื่อนและคุณครูได้อย่างราบรื่น</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects & Awards Section -->
+    <section id="projects" class="py-20 max-w-5xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-4 text-slate-900">โปรเจกต์และผลงานที่ผ่านมา</h2>
+        <p class="text-center text-slate-600 mb-12">ความภาคภูมิใจในการประกวดร้องเพลงและกิจกรรมต่างๆ</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Project 1 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg border border-slate-100 flex flex-col justify-between">
+                <div>
+                    <div class="h-48 bg-pink-200 relative overflow-hidden flex items-center justify-center">
+                        <i class="fa-solid fa-award text-6xl text-pink-600 opacity-80"></i>
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs font-semibold bg-pink-100 text-pink-700 px-3 py-1 rounded-full">ประกวดร้องเพลง</span>
+                        <h3 class="text-xl font-bold mt-3 mb-2">การแข่งขันประกวดร้องเพลง (ศิลปากร / นอกสถานที่)</h3>
+                        <p class="text-slate-600 text-sm">เข้าร่วมการแข่งขันประกวดร้องเพลง ณ มหาวิทยาลัยศิลปากร หรือสถานที่อื่นๆ ตามที่โรงเรียนสนับสนุนและจัดส่งเข้าร่วม เพื่อพัฒนาศักยภาพตนเองสู่เวทีระดับที่ใหญ่ขึ้น</p>
+                    </div>
+                </div>
+                <div class="px-6 pb-6 pt-0">
+                    <span class="text-sm font-medium text-amber-600"><i class="fa-solid fa-trophy mr-1"></i> ได้รับรางวัลเหรียญทอง / ชนะเลิศ</span>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg border border-slate-100 flex flex-col justify-between">
+                <div>
+                    <div class="h-48 bg-purple-200 relative overflow-hidden flex items-center justify-center">
+                        <i class="fa-solid fa-star text-6xl text-purple-600 opacity-80"></i>
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs font-semibold bg-purple-100 text-purple-700 px-3 py-1 rounded-full">กิจกรรมโรงเรียน</span>
+                        <h3 class="text-xl font-bold mt-3 mb-2">กิจกรรมการประกวดร้องเพลงและแข่งขันกีฬาภายในโรงเรียน</h3>
+                        <p class="text-slate-600 text-sm">ร่วมแสดงความสามารถด้านการขับร้องในกิจกรรมต่างๆ ของโรงเรียนสามร้อยยอดวิทยาคม พร้อมทั้งลงแข่งขันกีฬาบางประเภทเพื่อสร้างเสริมสุขภาพและมิตรภาพ</p>
+                    </div>
+                </div>
+                <div class="px-6 pb-6 pt-0">
+                    <span class="text-sm font-medium text-amber-600"><i class="fa-solid fa-medal mr-1"></i> ได้รับรางวัลชนะเลิศและเหรียญรางวัล</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Goals Section -->
+    <section id="goals" class="py-20 bg-gradient-to-r from-pink-600 to-purple-600 text-white">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">เป้าหมายในอนาคต</h2>
+            <p class="text-xl font-light leading-relaxed max-w-2xl mx-auto mb-8">
+                "อยากเป็นนักร้องที่มีชื่อเสียงโด่งดัง เป็นที่รู้จักและเป็นที่รักของผู้คนในโซเชียลมีเดีย พร้อมทั้งนำความสามารถทางด้านเสียงเพลงสร้างความสุขให้กับทุกคน"
+            </p>
+            <div class="inline-block bg-white/10 backdrop-blur-md px-6 py-3 rounded-full border border-white/20 text-sm">
+                <i class="fa-solid fa-bullseye mr-2"></i> มุ่งมั่นพัฒนาตัวเองในทุกๆ วันเพื่อความฝัน
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 max-w-4xl mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-4 text-slate-900">ช่องทางการติดต่อ</h2>
+        <p class="text-slate-600 mb-8">สามารถติดต่อสอบถามหรือร่วมงานได้ผ่านช่องทางด้านล่างนี้ค่ะ</p>
+        
+        <div class="inline-flex flex-col sm:flex-row items-center justify-center gap-6 bg-white p-8 rounded-2xl shadow-md border border-slate-200">
+            <div class="flex items-center space-x-3 text-lg font-medium text-slate-700">
+                <div class="w-12 h-12 bg-pink-100 text-pink-600 rounded-full flex items-center justify-center text-xl">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <span>093-756-4582</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-8 text-center text-sm">
+        <p>&copy; 2026 ขวัญจิรา เกาะเกตุ (ข้าวหอม) • สามร้อยยอดวิทยาคม. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript สำหรับเอฟเฟกต์เล็กน้อย -->
+    <script>
+        // สามารถเพิ่มลูกเล่นเพิ่มเติม เช่น การแจ้งเตือนเมื่อคลิกเบอร์โทร
+        console.log("Portfolio loaded successfully for Khaohom.");
+    </script>
+</body>
+</html>
